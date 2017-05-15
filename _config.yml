@@ -1,0 +1,19 @@
+title: VenadoLabs
+url: 'https://venadolabs.github.io/'
+baseurl: '' #change it according to your repository name
+
+# Company Information
+name: VenadoLabs
+description: Web & Mobile Development
+keywords: Web, Mobile, Development, Nicaragua, Android, iOS, Web, Node.js, .Net
+logo: logo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+address: Altamira, Calle Avila Casa 270
+email: hi@venadolabs.com
+phone: +(505) 01234567
+website: venadolabs.com #do not add http://
+linkedin: venadolabs
+github: venadolabs
+twitter: '@venadolabs'
+
+#Update all the sections by editing the files inside _includes folder.
+gems: [jekyll-sitemap]
