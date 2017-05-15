@@ -1,7 +1,15 @@
-## Portfolio powered by Jekyllrb
+## Website powered by Jekyllrb
 
-Run with docker:
+Run the project:
 
 ```
-sudo docker run -d -v "$PWD:/src" -p 4000:4000 --name ingdanni grahamc/jekyll serve -H 0.0.0.0
+# Install Jekyll
+gem install jekyll bundler
+
+# Open the project
+cd /project/path/
+
+# Serve Jekyll site
+jekyll serve --watch
+
 ```
