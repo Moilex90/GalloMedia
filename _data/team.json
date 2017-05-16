@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Julio Femer",
+		"position": "Desarrollador Android",
+		"email": "julio@venadolabs.com",
+		"picture": "danny.jpg"
+	},
+	{
+		"name": "Danny Narvaez",
+		"position": "Desarrollador iOS",
+		"email": "danny@venadolabs.com",
+		"picture": "danny.jpg"
+	},
+	{
+		"name": "Moisés Aburto",
+		"position": "Desarrollador Backend",
+		"email": "moises@venadolabs.com",
+		"picture": "danny.jpg"
+	}
+]
