@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section id="team" class="team">
+	<div class="container">
+		<div class="row">			
+			<h2>Nuestro Equipo</h2>
+            <hr class="small">                   
+			{% for x in site.data.team %}
+				<div class="col-md-3 col-sm-12">
+					<h4>{{x.name}}</h4>
+					<h5>{{x.position}}</h5>				
+					<img src="/assets/img/{{x.picture}}" class="thumbnail" style="max-width: 120px; max-height: 120px;">					
+				</div>
+			{% endfor %}			
+		</div>
+	</div>
+</section>
