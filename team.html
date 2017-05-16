@@ -8,10 +8,11 @@ layout: default
 			<h2>Nuestro Equipo</h2>
             <hr class="small">                   
 			{% for x in site.data.team %}
-				<div class="col-md-3 col-sm-12">
+				<div class="col-md-3 col-sm-12">					
+					<img src="assets/img/{{x.picture}}" class="thumbnail" style="max-width: 120px; max-height: 120px;">
 					<h4>{{x.name}}</h4>
 					<h5>{{x.position}}</h5>				
-					<img src="/assets/img/{{x.picture}}" class="thumbnail" style="max-width: 120px; max-height: 120px;">					
+					<p>{{x.description}}</p>				
 				</div>
 			{% endfor %}			
 		</div>
