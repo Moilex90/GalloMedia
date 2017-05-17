@@ -4,8 +4,8 @@
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         {% if page.title == "index" %}
-            <li class="sidebar-brand">            
-                <a href="#top" onclick=$("#menu-close").click();>{{site.name}}</a>                                
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>{{site.title}}</a>
             </li>
             <li>
                 <a href="#top" onclick=$("#menu-close").click();>Inicio</a>
@@ -26,8 +26,8 @@
                 <a href="#contact" onclick=$("#menu-close").click();>Contacto</a>
             </li>
         {% else %}
-            <li class="sidebar-brand">            
-                <a href="/" onclick=$("#menu-close").click();>{{site.name}}</a>                                
+            <li class="sidebar-brand">
+                <a href="/" onclick=$("#menu-close").click();>{{site.title}}</a>
             </li>
             <li>
                 <a href="/" onclick=$("#menu-close").click();>Inicio</a>
@@ -48,6 +48,6 @@
                 <a href="/#contact" onclick=$("#menu-close").click();>Contacto</a>
             </li>
         {% endif %}
-        
+
     </ul>
 </nav>

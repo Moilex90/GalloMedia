@@ -1,10 +1,10 @@
-title: VenadoLabs
+title: MOIses Solutions
 url: 'https://venadolabs.github.io/'
 baseurl: '' #change it according to your repository name
 
 # Company Information
 name: VenadoLabs
-description: Web & Mobile Development
+description: Desarrollo Web & Móvil
 keywords: Web, Mobile, Development, Nicaragua, Android, iOS, Web, Node.js, .Net
 logo: logo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 address: Altamira, Calle Avila Casa 270
@@ -14,8 +14,8 @@ website: venadolabs.com #do not add http://
 linkedin: venadolabs
 github: venadolabs
 twitter: '@venadolabs'
-service_title : 'Nuestros Servicios'
-work_tilte : 'Nuestros Trabajos'
+service_title : 'NUESTROS SERVICIOS'
+work_tilte : 'NUESTROS TRABAJOS'
 
 #Update all the sections by editing the files inside _includes folder.
 gems: [jekyll-sitemap]
