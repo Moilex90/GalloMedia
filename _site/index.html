@@ -19,24 +19,23 @@
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #load{
-            width:100%;
-            height:100%;
-            position:fixed;
-            z-index:9999;
-            background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25);
-        }
-    </style>
+    <link href="css/custom.css" rel="stylesheet">
     <script type="text/javascript">
         document.onreadystatechange = function () {
+
           var state = document.readyState
           if (state == 'complete') {
-              setTimeout(function(){
+
+              setTimeout(function() {
+
                   document.getElementById('interactive');
-                 document.getElementById('load').style.visibility="hidden";
+                  document.getElementById('load').style.opacity = 1;
+                  document.getElementById('load').style.visibility="hidden";
+
               },1000);
+
           }
+
         }
     </script>
 
@@ -194,9 +193,9 @@
                       <div class="col-md-6">
                           <div class="portfolio-item">
                               <a href="#">
-                                  <div class="text-portofolio">
-                                      <h5>eHarvestHub</h5>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                  <div class="portfolio-text">
+                                      <h4 class="title">eHarvestHub</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
                                   </div>
                                   <img class="img-portfolio img-responsive" src="assets/img/portfolio-1.jpg">
                               </a>
@@ -206,9 +205,9 @@
                       <div class="col-md-6">
                           <div class="portfolio-item">
                               <a href="#">
-                                  <div class="text-portofolio">
-                                      <h5>Tarjeta TUC</h5>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                  <div class="portfolio-text">
+                                      <h4 class="title">Tarjeta TUC</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
                                   </div>
                                   <img class="img-portfolio img-responsive" src="assets/img/portfolio-2.jpg">
                               </a>
@@ -218,9 +217,9 @@
                       <div class="col-md-6">
                           <div class="portfolio-item">
                               <a href="#">
-                                  <div class="text-portofolio">
-                                      <h5>CodeTeria</h5>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                  <div class="portfolio-text">
+                                      <h4 class="title">CodeTeria</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
                                   </div>
                                   <img class="img-portfolio img-responsive" src="assets/img/portfolio-3.jpg">
                               </a>
@@ -230,9 +229,9 @@
                       <div class="col-md-6">
                           <div class="portfolio-item">
                               <a href="#">
-                                  <div class="text-portofolio">
-                                      <h5>Corsario</h5>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                  <div class="portfolio-text">
+                                      <h4 class="title">Corsario</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
                                   </div>
                                   <img class="img-portfolio img-responsive" src="assets/img/portfolio-4.jpg">
                               </a>
@@ -382,4 +381,3 @@
 
 	</body>
 </html> 
-

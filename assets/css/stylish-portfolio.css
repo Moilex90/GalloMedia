@@ -206,37 +206,49 @@ hr.small {
 }
 
 .portfolio-item {
+
     margin-bottom: 30px;
+    position: relative;
+    display: block;
+
 }
 
-.text-portofolio {
+.portfolio-item .portfolio-text {
+
     position: absolute;
-    opacity: 0;
     top: 0;
     left: 0;
     right: 0;
-    transition:1s; /* A 1 second transition. */
-    -moz-transition:  1s;
-    -webkit-transition: 1s;
+    bottom: 0;
+    margin: 0;
+    background: rgba(255,255,255,0.9);
+    color: #383434;
+    font-size: 15px;
+    opacity:0;
+    transition:1s;
+
 }
 
-a:hover .text-portofolio {
-    opacity: 1;
+.portfolio-text > .title {
+    position: relative;
+    margin-top : 50px;
+    font-weight: bolder;
+
+}
+
+.portfolio-text > .desc {
+    //  border: 1px solid #ddd331;
+    color: #383434;
+}
+
+.portfolio-text:hover {
+
+    opacity:1;
+
 }
 
 .img-portfolio {
-    opacity: 1;
     margin: 0 auto;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-
-.img-portfolio:hover {
-    opacity: 0.1;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
 }
 
 /* Call to Action */
