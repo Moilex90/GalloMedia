@@ -10,16 +10,18 @@
                     {% for s in site.data.services %}
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <div class="service-item">
-                                    <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa {{s.icon}} fa-stack-1x text-primary"></i>
-                                </span>
-                                    <h4>
-                                        <strong>{{s.title}}</strong>
-                                    </h4>
-                                    <p>{{s.description}}</p>
-                                    <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                                <div class="service-item-{{forloop.index}}">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa {{s.icon}} fa-stack-1x text-primary"></i>
+                                    </span>
+                                        <h4>
+                                            <strong>{{s.title}}</strong>
+                                        </h4>
+                                        <p>{{s.description}}</p>
+                                        <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>

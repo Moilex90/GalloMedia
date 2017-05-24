@@ -35,22 +35,23 @@ layout: default
         {% for x in site.data.team %}
     			<div class="col-lg-3 col-md-4 col-sm-6">
             <div class="team-item">
-              <img src="assets/img/{{x.picture}}" class="thumbnail" style="max-width: 120px; max-height: 120px;">
-              <h4><strong>{{x.name}}</strong></h4>
-              <h5>{{x.position}}</h5>
-              <p class="text-justify">{{x.description}}</p>
-              <ul>
-                  {% if x.linkedin %}
-                    <li><a href="https://www.linkedin.com/in/{{x.linkedin}}/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                  {% endif %}
-                  {% if x.github %}
-                    <li><a href="https://www.github.com/{{x.github}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                  {% endif %}
-                  {% if x.facebook %}
-                    <li><a href="https://www.facebook.com/{{x.facebook}}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  {% endif %}
-              </ul>
-
+              <div class="team-item-{{forloop.index}}">
+                <img src="assets/img/{{x.picture}}" class="thumbnail" style="max-width: 120px; max-height: 120px;">
+                <h4><strong>{{x.name}}</strong></h4>
+                <h5>{{x.position}}</h5>
+                <p class="text-justify">{{x.description}}</p>
+                <ul>
+                    {% if x.linkedin %}
+                      <li><a href="https://www.linkedin.com/in/{{x.linkedin}}/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if x.github %}
+                      <li><a href="https://www.github.com/{{x.github}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                    {% if x.facebook %}
+                      <li><a href="https://www.facebook.com/{{x.facebook}}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    {% endif %}
+                </ul>
+              </div>
             </div>
     			</div>
     		{% endfor %}
