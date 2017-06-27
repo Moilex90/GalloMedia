@@ -1,78 +1,47 @@
 <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
+<aside class="callout">
+    <div class="text-vertical-center">
+        <h1>Soluciones a la medida</h1>
+    </div>
+</aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>{{site.work_tilte}}</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <div class="text-portofolio">
-                                        <h5>Corsario</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <div class="text-portofolio">
-                                        <h5>EHH</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <div class="text-portofolio">
-                                        <h5>Tarjeta TUC</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h2>{{site.work_tilte}}</h2>
+                <hr class="small">
+                <div class="row">
+                  {% for p in site.data.projects %}
+                      <div class="col-md-6">
+                          <div class="portfolio-item">
+                              <a href="#">
+                                  <div class="portfolio-text">
+                                      <h4 class="title">{{p.title}}</h4>
+                                      <span class="desc">{{p.description}}</span>
+                                  </div>
+                                  <img class="img-portfolio img-responsive" src="assets/img/{{p.image}}">
+                              </a>
+                          </div>
+                      </div>
+                  {% endfor %}
                 </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
+                <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
             </div>
         </div>
-    </aside>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<aside class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>The buttons below are impossible to resist.</h3>
+                <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+            </div>
+        </div>
+    </div>
+</aside>

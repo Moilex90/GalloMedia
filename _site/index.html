@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en"> 
 	<head>
-    <title>VenadoLabs</title>
+    <title>Gallo Media</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Web & Mobile Development">
-    <meta name="author" content="VenadoLabs">
+    <meta name="description" content="Desarrollo Web & Móvil">
+    <meta name="author" content="Gallo Media">
     <meta name="keywords" content="Web, Mobile, Development, Nicaragua, Android, iOS, Web, Node.js, .Net" />
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <!-- <link href="assets/css/animate.css" rel="stylesheet"> -->
     <link href="assets/css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/services.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,204 +31,237 @@
 </head>
 
 	<body>
+		<div id="load"></div>
 		<!-- Navigation -->
 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand">
-            <a href="#top" onclick=$("#menu-close").click();>VenadoLab</a>
-        </li>
-        <li>
-            <a href="#top" onclick=$("#menu-close").click();>Home</a>
-        </li>
-        <li>
-            <a href="#about" onclick=$("#menu-close").click();>About</a>
-        </li>
-        <li>
-            <a href="#services" onclick=$("#menu-close").click();>Services</a>
-        </li>
-        <li>
-            <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-        </li>
-        <li>
-            <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-        </li>
+        
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Gallo Media</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Inicio</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>Acerca de</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Servicios</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portafolio</a>
+            </li>
+            <li>
+                <a href="team.html" onclick=$("#menu-close").click();>Equipo</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contacto</a>
+            </li>
+        
+
     </ul>
 </nav>
-		<!-- Header -->
+
+		<style media="screen">
+  .dark-layer{background-color: rgba(0,0,0,0.4); position: relative; display: table; color: #FFF; width: 100%; height: 100%;}
+</style>
+<!-- Header -->
 <header id="top" class="header">
+  <div class="dark-layer">
     <div class="text-vertical-center">
-        <h1>VenadoLabs</h1>
-        <h3>Web & Mobile Development</h3>
+        <h1>Gallo Media</h1>
+        <h3>Desarrollo Web & Móvil</h3>
         <br>
-        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <a href="#about" class="btn btn-dark btn-lg">¿Quiénes somos?</a>
     </div>
+  </div>
 </header>
-<!-- About -->
+
 <section id="about" class="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                <h2>¿QUIÉNES SOMOS?</h2>
+                <p class="lead">Somos un grupo de profesionales desarrolladores de software con vasta experiencia trabajando con empresas, ayudándolas a crecer y cumplir sus metas. Hemos desarrollado múltiples proyectos de Software, Aplicaciones Web y Móviles que incluyen manejo de inventario, órdenes, e-commerce y consultorias.</p>
             </div>
         </div>
-        <!-- /.row -->
     </div>
-    <!-- /.container -->
 </section>
-     <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Nuestros Servicios</h2>
-                    <hr class="small">
-                    <div class="row">
+
+ <!-- Services -->
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="services" class="services bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>NUESTROS SERVICIOS</h2>
+                <hr class="small">
+                <div class="row">
+                    
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-mobile fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Aplicaciones m&oacute;viles nativas</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <div class="service-item-1">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-mobile fa-stack-1x text-primary"></i>
+                                    </span>
+                                        <h4>
+                                            <strong>Aplicaciones Móviles Nativas</strong>
+                                        </h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Diseño y Aplicaciones web</strong>
-                                </h4>
-                                <br>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <div class="service-item-2">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-code fa-stack-1x text-primary"></i>
+                                    </span>
+                                        <h4>
+                                            <strong>Diseño y Aplicaciones Web</strong>
+                                        </h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-desktop fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Aplicaciones de escritorio</strong>
-                                </h4>
-                                <br>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <div class="service-item-3">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-desktop fa-stack-1x text-primary"></i>
+                                    </span>
+                                        <h4>
+                                            <strong>Aplicaciones de escritorio</strong>
+                                        </h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-users fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Consultor&iacute;a en redes y sistemas</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <div class="service-item-4">
+                                    <div class="service-item">
+                                        <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                    </span>
+                                        <h4>
+                                            <strong>Consultoría en Redes y Sistemas</strong>
+                                        </h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- /.row (nested) -->
+                    
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+    </div>
+</section>
+
 <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
+<aside class="callout">
+    <div class="text-vertical-center">
+        <h1>Soluciones a la medida</h1>
+    </div>
+</aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Nuestros Trabajos</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <div class="text-portofolio">
-                                        <h5>Corsario</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <div class="text-portofolio">
-                                        <h5>EHH</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <div class="text-portofolio">
-                                        <h5>Tarjeta TUC</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="assets/img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h2>NUESTROS TRABAJOS</h2>
+                <hr class="small">
+                <div class="row">
+                  
+                      <div class="col-md-6">
+                          <div class="portfolio-item">
+                              <a href="#">
+                                  <div class="portfolio-text">
+                                      <h4 class="title">eHarvestHub</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                                  </div>
+                                  <img class="img-portfolio img-responsive" src="assets/img/portfolio-1.jpg">
+                              </a>
+                          </div>
+                      </div>
+                  
+                      <div class="col-md-6">
+                          <div class="portfolio-item">
+                              <a href="#">
+                                  <div class="portfolio-text">
+                                      <h4 class="title">Tarjeta TUC</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                                  </div>
+                                  <img class="img-portfolio img-responsive" src="assets/img/portfolio-2.jpg">
+                              </a>
+                          </div>
+                      </div>
+                  
+                      <div class="col-md-6">
+                          <div class="portfolio-item">
+                              <a href="#">
+                                  <div class="portfolio-text">
+                                      <h4 class="title">CodeTeria</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                                  </div>
+                                  <img class="img-portfolio img-responsive" src="assets/img/portfolio-3.jpg">
+                              </a>
+                          </div>
+                      </div>
+                  
+                      <div class="col-md-6">
+                          <div class="portfolio-item">
+                              <a href="#">
+                                  <div class="portfolio-text">
+                                      <h4 class="title">Corsario</h4>
+                                      <span class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                                  </div>
+                                  <img class="img-portfolio img-responsive" src="assets/img/portfolio-4.jpg">
+                              </a>
+                          </div>
+                      </div>
+                  
                 </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
+                <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
             </div>
         </div>
-    </aside>
- <!-- Map -->
+    </div>
+</section>
+
+<!-- Call to Action -->
+<aside class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>The buttons below are impossible to resist.</h3>
+                <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+            </div>
+        </div>
+    </div>
+</aside>
+
 <section id="contact" class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
@@ -234,17 +269,18 @@
         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
     </small>
 </section>
+
 		<!-- Footer -->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong>VenadoLabs</strong>
+                <h4><strong>Gallo Media</strong>
                 </h4>
                 <p>Altamira, Calle Avila Casa 270</p>
                 <ul class="list-unstyled">
                     <li><i class="fa fa-phone fa-fw"></i> +(505) 01234567</li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:hi@venadolabs.com">hi@venadolabs.com</a>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:hello@gallomedia.xyz">hello@gallomedia.xyz</a>
                     </li>
                 </ul>
                 <br>
@@ -253,26 +289,38 @@
                         <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                     </li>
                 </ul>
                 <hr class="small">
-                <p class="text-muted">Copyright &copy; VenadoLabs 2017</p>
+                <p class="text-muted">Copyright &copy; Gallo Media 2017</p>
             </div>
         </div>
     </div>
     <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
 </footer>
+
 		<!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
+    <!-- <script src="assets/js/animate-plus.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="assets/js/animation.gsap.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
+    <script src="assets/js/custom.js"></script>
     <script>
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
@@ -348,4 +396,3 @@
 
 	</body>
 </html> 
-

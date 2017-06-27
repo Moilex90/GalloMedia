@@ -1,21 +1,21 @@
-title: VenadoLabs
-url: 'https://venadolabs.github.io/'
+title: Gallo Media
+url: 'https://gallomedia.github.io/'
 baseurl: '' #change it according to your repository name
 
 # Company Information
-name: VenadoLabs
-description: Web & Mobile Development
+name: Gallo Media
+description: Desarrollo Web & Móvil
 keywords: Web, Mobile, Development, Nicaragua, Android, iOS, Web, Node.js, .Net
 logo: logo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 address: Altamira, Calle Avila Casa 270
-email: hi@venadolabs.com
+email: hello@gallomedia.xyz
 phone: +(505) 01234567
-website: venadolabs.com #do not add http://
-linkedin: venadolabs
-github: venadolabs
-twitter: '@venadolabs'
-service_title : 'Nuestros Servicios'
-work_tilte : 'Nuestros Trabajos'
+website: gallomedia.xyz #do not add http://
+linkedin: gallomedia
+github: gallomedia
+twitter: '@gallomedia'
+service_title : 'NUESTROS SERVICIOS'
+work_tilte : 'NUESTROS TRABAJOS'
 
 #Update all the sections by editing the files inside _includes folder.
 gems: [jekyll-sitemap]
